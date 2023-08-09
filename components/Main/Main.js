@@ -7,14 +7,14 @@ const template = () => {
   return `
     <h2>Let's play</h2>
     <section>
-    <button id="rock-btn">
-        <img src="/images/rock.png"/>
+    <button id="rock-btn" alt="foto de mano en modo piedra">
+        <img src="/images/rock.png" alt="foto de mano en modo piedra"/>
     </buton>
-    <button id="paper-btn">
-        <img src="/images/paper.png"/>
+    <button id="paper-btn" alt="foto de mano en modo papel">
+        <img src="/images/paper.png" alt="foto de mano en modo papel"/>
     </buton>
-    <button id="scissors-btn">
-        <img src="/images/scissors.png"/>
+    <button id="scissors-btn" alt="foto de mano en modo tijera">
+        <img src="/images/scissors.png" alt="foto de mano en modo tijera"/>
     </buton>
     </section>
     <h3 id="result">Choose an option...</h3>
