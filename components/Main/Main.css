@@ -1,0 +1,28 @@
+main {
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+main > section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+main img {
+  height: 80px;
+  width: auto;
+  transition: 0.2s;
+}
+main img:hover {
+  transform: scale(1.1) rotate(-10deg);
+}
+
+button {
+  background: none;
+  border: none;
+}
